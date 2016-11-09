@@ -10,6 +10,13 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>01800D60331605E4EE695B4FB76C93E8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>552CD2247906DB13BCF5729ED0DEA63F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
 			<key>children</key>
@@ -30,7 +37,7 @@
 			<key>name</key>
 			<string>FMDB_JING</string>
 			<key>target</key>
-			<string>16DB822C1A3AC6A73572A8890493116A</string>
+			<string>0EDF004A5F54D264D788FC5C7557573C</string>
 			<key>targetProxy</key>
 			<string>4A0E0335DF47EFAF635EE10992608BC9</string>
 		</dict>
@@ -51,21 +58,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>0ADA58F8D68226E73372C61C11F37DB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FMDatabase.m</string>
-			<key>path</key>
-			<string>src/fmdb/FMDatabase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0B49CEFE53FE5ABAAD6D20703C32376E</key>
 		<dict>
@@ -89,39 +81,71 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0DB1CEBA32902AE695CAEEB5B87C95EF</key>
+		<key>0E7988E773580CED028DD3EC8FAF1208</key>
 		<dict>
-			<key>children</key>
+			<key>baseConfigurationReference</key>
+			<string>F604B5D7D4979A583ADE8E4A27191CC2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FMDB_JING/FMDB_JING-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0EDF004A5F54D264D788FC5C7557573C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FD4EC7E499604398D3E6114865E7E40B</string>
+			<key>buildPhases</key>
 			<array>
-				<string>2A57350D5A7F3165B12C6AAC7BD2C86F</string>
-				<string>F2C83731B7B319685B22E88DE3DB8DBF</string>
+				<string>2947CF9A3111B4C585945917860E691A</string>
+				<string>57E2A0909ED87A7C8C2B660B48D761F4</string>
+				<string>6B07360BD6C70A9FC3367FB540D1F2FC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2E5C93484C1D9659861A3DBEFED81A85</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>FMDB</string>
-			<key>path</key>
-			<string>FMDB</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EC8A8E2D287E2A5D845FE8A4887F9BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FMDB-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>FMDB_JING</string>
+			<key>productName</key>
+			<string>FMDB_JING</string>
+			<key>productReference</key>
+			<string>0B49CEFE53FE5ABAAD6D20703C32376E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>0EF8E9AA652DBE2745A7D5C8CD2E3BDE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3DBC8975B02F601FA73999337344C917</string>
+			<string>CA26527B33398F7378A2DF5D867C521C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -133,7 +157,7 @@
 		<key>0F8A8E0D6FAEBF758E0B4D620335F094</key>
 		<dict>
 			<key>fileRef</key>
-			<string>904BDCEFA4B0EE661C2CC8E730D61902</string>
+			<string>F55B93DC5EA46C5E463ECF0C8F185D52</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -143,20 +167,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>10149CF0EE0383E5AF6A2E88BD63B089</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0DB1CEBA32902AE695CAEEB5B87C95EF</string>
-				<string>22C7F02D63D07E2D3C6A1919F60CCAE3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>10834806BD7B412BC24F347361FA2C8E</key>
 		<dict>
@@ -239,6 +249,20 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>1283F30671AA020626546C802730D0BA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FF909A8266B383DE485CC26C33F6168B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>14C04EFA2E961121C8FB9C15D0EDD813</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -254,29 +278,32 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>16DB822C1A3AC6A73572A8890493116A</key>
+		<key>16008685CD43B7A756957E34732A68EB</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>43DCB1500CA8929FBDA2146F499BFE89</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EECEA539CC9EAF8516B83374F8294D86</string>
-				<string>FE441410559FA71FACD2C79B442C7DF7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FMDB_JING</string>
-			<key>productName</key>
-			<string>FMDB_JING</string>
-			<key>productReference</key>
-			<string>0B49CEFE53FE5ABAAD6D20703C32376E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FMDB-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20F2FF0C726F4FFBEA55AA4D86C1C6DA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5AE16E8C59624BC017570408A18E4B00</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>22AFBF968CA054466C72889B0E9C3511</key>
 		<dict>
@@ -305,22 +332,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>22C7F02D63D07E2D3C6A1919F60CCAE3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C5AD983DA35942D493F75F5DCEFBFFAE</string>
-				<string>C2BDE2E633CB50604E8EEF756ED400D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FMDB_JING</string>
-			<key>path</key>
-			<string>FMDB_JING</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -334,10 +345,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>27E43B27F85B5D4EE71002514EAC8105</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FMDatabaseQueue.h</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabaseQueue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>282081E035E7A843068E8BCC2E07C217</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6C9D5C281FC5591A4DC8A83A48528CAE</string>
+			<string>6B7D8C191DE61A8CA519E5BF853B9E74</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -345,6 +371,21 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
+		</dict>
+		<key>2947CF9A3111B4C585945917860E691A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C67E386A94FD5F93B8A5FC111BF66DDD</string>
+				<string>01800D60331605E4EE695B4FB76C93E8</string>
+				<string>95445531993E1B30EC380C04D38B3133</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>29B53FE39E905879EBD9850F8E0AECEB</key>
 		<dict>
@@ -378,35 +419,18 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2A57350D5A7F3165B12C6AAC7BD2C86F</key>
+		<key>2BC22285CA123E6F261C9E135CB39CB2</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F3C606CD46EBECC86F1D1C662A80B58E</string>
-				<string>0ADA58F8D68226E73372C61C11F37DB9</string>
-				<string>D0E4F856644DD683F424914643D4D207</string>
-				<string>C74DE3CF646E15F6F593AB68271E50DD</string>
-				<string>904BDCEFA4B0EE661C2CC8E730D61902</string>
-				<string>3DBC8975B02F601FA73999337344C917</string>
-				<string>565599C06D48B5FAC733279C9335961C</string>
-				<string>6C9D5C281FC5591A4DC8A83A48528CAE</string>
-				<string>F6AD5FCDC9B6B62C9F3B6A9B5D015104</string>
-				<string>A6A83D0764784D09239E14138D2D4573</string>
-				<string>9B3E6497934A257E1716A58FA21E49DB</string>
-			</array>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>standard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C12926A89D93A075345C6EC66615F1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5AD983DA35942D493F75F5DCEFBFFAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9F12FB4A63E20F601CFB2E64A65B57C1</string>
+			<key>remoteInfo</key>
+			<string>FMDB</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -422,10 +446,21 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>2E5C93484C1D9659861A3DBEFED81A85</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>FMDB</string>
+			<key>target</key>
+			<string>9F12FB4A63E20F601CFB2E64A65B57C1</string>
+			<key>targetProxy</key>
+			<string>2BC22285CA123E6F261C9E135CB39CB2</string>
+		</dict>
 		<key>313531CEDA0294311D87B4F4C3F073F4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F6AD5FCDC9B6B62C9F3B6A9B5D015104</string>
+			<string>8BE3B8534E7ED97ED352F1F8E1E4106C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -436,7 +471,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>322014601208925B046F06EAF2BCC6E3</key>
+		<key>321E76719B82F87BE274A7E47856F7E4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -444,17 +479,27 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCF_ModelBlockHeader.h</string>
 			<key>path</key>
-			<string>FMDB-prefix.pch</string>
+			<string>FMDB_JING/Classes/JCF_ModelBlockHeader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>357688EFAAFB7335B86372293B9B83A6</key>
+		<key>36AC0E866868F6B92FBDB3DB6F2CECA1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AB44579D1660209C91EDB85AAB2D2B2C</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JCF_ModelManagerHelper.m</string>
+			<key>path</key>
+			<string>FMDB_JING/Classes/JCF_ModelManagerHelper.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3753FAC746EE86662156E127EC56323E</key>
 		<dict>
@@ -500,24 +545,9 @@
 		<key>3D0F69C4CA35EB6A1F686BA88B19B4F6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0EC8A8E2D287E2A5D845FE8A4887F9BB</string>
+			<string>16008685CD43B7A756957E34732A68EB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DBC8975B02F601FA73999337344C917</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FMDatabasePool.m</string>
-			<key>path</key>
-			<string>src/fmdb/FMDatabasePool.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
@@ -531,20 +561,6 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>43DCB1500CA8929FBDA2146F499BFE89</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D71EF8B5A7FA83F6706B4344386B822D</string>
-				<string>EE447076EC12F5709BDE522AF0B763CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
 		<key>47687D1B481E94123BBBF5EDA14D8A53</key>
 		<dict>
@@ -587,7 +603,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>16DB822C1A3AC6A73572A8890493116A</string>
+			<string>0EDF004A5F54D264D788FC5C7557573C</string>
 			<key>remoteInfo</key>
 			<string>FMDB_JING</string>
 		</dict>
@@ -601,6 +617,44 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EF130CB6D3CDC0A95C1B86144ECB1B3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8630EDF17E42DC3BC2A0F6A6874B1372</string>
+				<string>DDF7AC275DA94332A46AB057CBD2C230</string>
+				<string>57DD5F850E06C4510A3F179026E4E22D</string>
+				<string>65E466D101C3A35360C57DB4240A0BBD</string>
+				<string>F55B93DC5EA46C5E463ECF0C8F185D52</string>
+				<string>CA26527B33398F7378A2DF5D867C521C</string>
+				<string>27E43B27F85B5D4EE71002514EAC8105</string>
+				<string>6B7D8C191DE61A8CA519E5BF853B9E74</string>
+				<string>8BE3B8534E7ED97ED352F1F8E1E4106C</string>
+				<string>8637D249806380613E41BE0E25C2E4B8</string>
+				<string>7CA7A24D30322AE3496E22CD7F39872C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>standard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>552CD2247906DB13BCF5729ED0DEA63F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JCF_ModelManager.m</string>
+			<key>path</key>
+			<string>FMDB_JING/Classes/JCF_ModelManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -677,7 +731,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>565599C06D48B5FAC733279C9335961C</key>
+		<key>57DD5F850E06C4510A3F179026E4E22D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -686,11 +740,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FMDatabaseQueue.h</string>
+			<string>FMDatabaseAdditions.h</string>
 			<key>path</key>
-			<string>src/fmdb/FMDatabaseQueue.h</string>
+			<string>src/fmdb/FMDatabaseAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>57E2A0909ED87A7C8C2B660B48D761F4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C65F703AEDDF54C1091E04C24D069770</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>587B76A3E381AF7C3EFFDF6754D39288</key>
 		<dict>
@@ -698,6 +765,20 @@
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>59A9D8799DC3B13459C272ED6133FF01</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8509A385213A09E06C905C1E9F603488</string>
+				<string>D627637FF86949F3EAC3AD1B256B4FD8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>59EB52467909C5909C2A08877EFB5CAD</key>
 		<dict>
@@ -709,6 +790,81 @@
 			<string>9F12FB4A63E20F601CFB2E64A65B57C1</string>
 			<key>targetProxy</key>
 			<string>7215264F279ECF2D1B2B0697BEF196EC</string>
+		</dict>
+		<key>5AE16E8C59624BC017570408A18E4B00</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCF_ModelManager.h</string>
+			<key>path</key>
+			<string>FMDB_JING/Classes/JCF_ModelManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C0E6C4EE8E56012CC24FB36E20C4FDB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F604B5D7D4979A583ADE8E4A27191CC2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/FMDB_JING/FMDB_JING-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5C3242D32C7A5CA1AE42BE0957827377</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FMDB_JING-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E8DF9E75FF2C01CAD2E407BF665FB0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FMDB.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5EAA8E41D827523831FFFB96B68BF7C3</key>
 		<dict>
@@ -723,6 +879,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>65E466D101C3A35360C57DB4240A0BBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FMDatabaseAdditions.m</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabaseAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6911BECA35E7518D864239B7E898EEF3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -733,6 +904,37 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B07360BD6C70A9FC3367FB540D1F2FC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BD561B1E08A09FA3EA6FE91A0EEE502C</string>
+				<string>20F2FF0C726F4FFBEA55AA4D86C1C6DA</string>
+				<string>D2A34EB60552F44CFF0D2029C57893AE</string>
+				<string>1283F30671AA020626546C802730D0BA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6B7D8C191DE61A8CA519E5BF853B9E74</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FMDatabaseQueue.m</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabaseQueue.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -751,21 +953,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6C9D5C281FC5591A4DC8A83A48528CAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FMDatabaseQueue.m</string>
-			<key>path</key>
-			<string>src/fmdb/FMDatabaseQueue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7215264F279ECF2D1B2B0697BEF196EC</key>
 		<dict>
 			<key>containerPortal</key>
@@ -779,16 +966,18 @@
 			<key>remoteInfo</key>
 			<string>FMDB</string>
 		</dict>
-		<key>74C7D21E71AC46082815C6FFD1302689</key>
+		<key>7CA7A24D30322AE3496E22CD7F39872C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FMResultSet.m</string>
 			<key>path</key>
-			<string>FMDB.xcconfig</string>
+			<string>src/fmdb/FMResultSet.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -798,7 +987,7 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>10149CF0EE0383E5AF6A2E88BD63B089</string>
+				<string>59A9D8799DC3B13459C272ED6133FF01</string>
 				<string>7DB48A7248A23052D0A9487153880FDD</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
@@ -835,6 +1024,67 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>8509A385213A09E06C905C1E9F603488</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4EF130CB6D3CDC0A95C1B86144ECB1B3</string>
+				<string>9DEDC38255BCDA88AF011A96BF298B47</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FMDB</string>
+			<key>path</key>
+			<string>FMDB</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8630EDF17E42DC3BC2A0F6A6874B1372</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FMDatabase.h</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8637D249806380613E41BE0E25C2E4B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FMResultSet.h</string>
+			<key>path</key>
+			<string>src/fmdb/FMResultSet.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>889162E72DCC791BFD30C725677E2457</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCF_ModelManagerHelper.h</string>
+			<key>path</key>
+			<string>FMDB_JING/Classes/JCF_ModelManagerHelper.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8B2D82357BE4C2A10AB2CD4724B8E654</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -853,7 +1103,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>904BDCEFA4B0EE661C2CC8E730D61902</key>
+		<key>8BE3B8534E7ED97ED352F1F8E1E4106C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -862,29 +1112,23 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FMDatabasePool.h</string>
+			<string>FMDB.h</string>
 			<key>path</key>
-			<string>src/fmdb/FMDatabasePool.h</string>
+			<string>src/fmdb/FMDB.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>958E1D6BFB1851ABDA18ADC0DDD6C9A4</key>
+		<key>95445531993E1B30EC380C04D38B3133</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>36AC0E866868F6B92FBDB3DB6F2CECA1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FMDB_JING-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>95AB0EFA5063815DEE3FFB2BD81AD5F6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>74C7D21E71AC46082815C6FFD1302689</string>
+			<string>5E8DF9E75FF2C01CAD2E407BF665FB0D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -928,25 +1172,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9B3E6497934A257E1716A58FA21E49DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FMResultSet.m</string>
-			<key>path</key>
-			<string>src/fmdb/FMResultSet.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9D901110BE156BF5D8158A1C8E97F37C</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>74C7D21E71AC46082815C6FFD1302689</string>
+			<string>5E8DF9E75FF2C01CAD2E407BF665FB0D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -976,6 +1205,23 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
+		</dict>
+		<key>9DEDC38255BCDA88AF011A96BF298B47</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5E8DF9E75FF2C01CAD2E407BF665FB0D</string>
+				<string>16008685CD43B7A756957E34732A68EB</string>
+				<string>CEB6A54A37C4B9BA4ABF60BE62685062</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FMDB</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
 		<dict>
@@ -1018,7 +1264,7 @@
 		<key>A350C5704A1F233DAD830E081E00F8C1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C74DE3CF646E15F6F593AB68271E50DD</string>
+			<string>65E466D101C3A35360C57DB4240A0BBD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1027,38 +1273,20 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>A6A83D0764784D09239E14138D2D4573</key>
+		<key>B1EB012AF532114C5783B30571505500</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>F604B5D7D4979A583ADE8E4A27191CC2</string>
+				<string>FB3053B37CAE11A01354A30EF84912E1</string>
+				<string>5C3242D32C7A5CA1AE42BE0957827377</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FMResultSet.h</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>src/fmdb/FMResultSet.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7461437BA91CE7871CD91084DECA66E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB44579D1660209C91EDB85AAB2D2B2C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FMDB_JING-dummy.m</string>
+			<string>../Target Support Files/FMDB_JING</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1086,7 +1314,7 @@
 		<key>B418C9BDCF8C6BAC2E3942F157BB6D4C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D0E4F856644DD683F424914643D4D207</string>
+			<string>57DD5F850E06C4510A3F179026E4E22D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1127,18 +1355,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BE6D9304DECB7B15E9E222544AB58D27</key>
+		<key>BD561B1E08A09FA3EA6FE91A0EEE502C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>321E76719B82F87BE274A7E47856F7E4</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FMDB_JING.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
@@ -1153,57 +1382,24 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C2BDE2E633CB50604E8EEF756ED400D2</key>
+		<key>C65F703AEDDF54C1091E04C24D069770</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>BE6D9304DECB7B15E9E222544AB58D27</string>
-				<string>AB44579D1660209C91EDB85AAB2D2B2C</string>
-				<string>958E1D6BFB1851ABDA18ADC0DDD6C9A4</string>
-			</array>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FMDB_JING</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>C5AD983DA35942D493F75F5DCEFBFFAE</key>
+		<key>C67E386A94FD5F93B8A5FC111BF66DDD</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>FB3053B37CAE11A01354A30EF84912E1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ReplaceMe.m</string>
-			<key>path</key>
-			<string>FMDB_JING/Classes/ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C74DE3CF646E15F6F593AB68271E50DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FMDatabaseAdditions.m</string>
-			<key>path</key>
-			<string>src/fmdb/FMDatabaseAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CA027706DD6805766F1F4EC548E72440</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0ADA58F8D68226E73372C61C11F37DB9</string>
+			<string>DDF7AC275DA94332A46AB057CBD2C230</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1212,10 +1408,38 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>CA26527B33398F7378A2DF5D867C521C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FMDatabasePool.m</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabasePool.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEB6A54A37C4B9BA4ABF60BE62685062</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FMDB-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D0C5FF5485EAA2CDA03E9796B407697A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>565599C06D48B5FAC733279C9335961C</string>
+			<string>27E43B27F85B5D4EE71002514EAC8105</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1229,7 +1453,7 @@
 		<key>D0D5FFE53407F16C9CD3D0ECF43ACE93</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F3C606CD46EBECC86F1D1C662A80B58E</string>
+			<string>8630EDF17E42DC3BC2A0F6A6874B1372</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1240,20 +1464,19 @@
 				</array>
 			</dict>
 		</dict>
-		<key>D0E4F856644DD683F424914643D4D207</key>
+		<key>D2A34EB60552F44CFF0D2029C57893AE</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>889162E72DCC791BFD30C725677E2457</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FMDatabaseAdditions.h</string>
-			<key>path</key>
-			<string>src/fmdb/FMDatabaseAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1291,48 +1514,50 @@
 			<key>targets</key>
 			<array>
 				<string>9F12FB4A63E20F601CFB2E64A65B57C1</string>
-				<string>16DB822C1A3AC6A73572A8890493116A</string>
+				<string>0EDF004A5F54D264D788FC5C7557573C</string>
 				<string>22AFBF968CA054466C72889B0E9C3511</string>
 			</array>
 		</dict>
-		<key>D71EF8B5A7FA83F6706B4344386B822D</key>
+		<key>D627637FF86949F3EAC3AD1B256B4FD8</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE6D9304DECB7B15E9E222544AB58D27</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FMDB_JING/FMDB_JING-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>children</key>
+			<array>
+				<string>321E76719B82F87BE274A7E47856F7E4</string>
+				<string>5AE16E8C59624BC017570408A18E4B00</string>
+				<string>552CD2247906DB13BCF5729ED0DEA63F</string>
+				<string>889162E72DCC791BFD30C725677E2457</string>
+				<string>36AC0E866868F6B92FBDB3DB6F2CECA1</string>
+				<string>FF909A8266B383DE485CC26C33F6168B</string>
+				<string>B1EB012AF532114C5783B30571505500</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>FMDB_JING</string>
+			<key>path</key>
+			<string>FMDB_JING</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DDF7AC275DA94332A46AB057CBD2C230</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FMDatabase.m</string>
+			<key>path</key>
+			<string>src/fmdb/FMDatabase.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DEFA3504695E9DFDE1177DAB22884470</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9B3E6497934A257E1716A58FA21E49DB</string>
+			<string>7CA7A24D30322AE3496E22CD7F39872C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1348,72 +1573,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EE447076EC12F5709BDE522AF0B763CA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE6D9304DECB7B15E9E222544AB58D27</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FMDB_JING/FMDB_JING-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EECEA539CC9EAF8516B83374F8294D86</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>357688EFAAFB7335B86372293B9B83A6</string>
-				<string>2C12926A89D93A075345C6EC66615F1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F2C83731B7B319685B22E88DE3DB8DBF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74C7D21E71AC46082815C6FFD1302689</string>
-				<string>0EC8A8E2D287E2A5D845FE8A4887F9BB</string>
-				<string>322014601208925B046F06EAF2BCC6E3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FMDB</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3C606CD46EBECC86F1D1C662A80B58E</key>
+		<key>F55B93DC5EA46C5E463ECF0C8F185D52</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1422,31 +1582,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FMDatabase.h</string>
+			<string>FMDatabasePool.h</string>
 			<key>path</key>
-			<string>src/fmdb/FMDatabase.h</string>
+			<string>src/fmdb/FMDatabasePool.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F6AD5FCDC9B6B62C9F3B6A9B5D015104</key>
+		<key>F604B5D7D4979A583ADE8E4A27191CC2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FMDB.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>src/fmdb/FMDB.h</string>
+			<string>FMDB_JING.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F977B243321331B58666E9284634101A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A6A83D0764784D09239E14138D2D4573</string>
+			<string>8637D249806380613E41BE0E25C2E4B8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1457,18 +1615,32 @@
 				</array>
 			</dict>
 		</dict>
-		<key>FE441410559FA71FACD2C79B442C7DF7</key>
+		<key>FB3053B37CAE11A01354A30EF84912E1</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7461437BA91CE7871CD91084DECA66E</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FMDB_JING-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FD4EC7E499604398D3E6114865E7E40B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5C0E6C4EE8E56012CC24FB36E20C4FDB</string>
+				<string>0E7988E773580CED028DD3EC8FAF1208</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>FF1B2532BDDE036D22E629D08B9854F0</key>
 		<dict>
@@ -1482,6 +1654,21 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>FF909A8266B383DE485CC26C33F6168B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCF_ModelProtocol.h</string>
+			<key>path</key>
+			<string>FMDB_JING/Classes/JCF_ModelProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

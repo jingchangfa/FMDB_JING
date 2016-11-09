@@ -54,6 +54,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>29DEEB8875DECD16D2624862</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2B8A88EB6FDE824A88EA58F7</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -227,6 +242,11 @@
 				<string>jing</string>
 				<key>TargetAttributes</key>
 				<dict>
+					<key>6003F589195388D20070C39A</key>
+					<dict>
+						<key>DevelopmentTeam</key>
+						<string>AM3524BGVT</string>
+					</dict>
 					<key>6003F5AD195388D20070C39A</key>
 					<dict>
 						<key>TestTargetID</key>
@@ -1033,13 +1053,15 @@
 		<key>6003F5C0195388D20070C39A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>3D826EA361686B199AC71323</string>
+			<string>29DEEB8875DECD16D2624862</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
 				<string>LaunchImage</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>AM3524BGVT</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
@@ -1063,13 +1085,15 @@
 		<key>6003F5C1195388D20070C39A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>911D4ED302B1DCA9BD5E3769</string>
+			<string>A973718FA9C3D549DC8EDED3</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
 				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
 				<string>LaunchImage</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>AM3524BGVT</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
@@ -1205,6 +1229,8 @@
 			<array>
 				<string>3D826EA361686B199AC71323</string>
 				<string>911D4ED302B1DCA9BD5E3769</string>
+				<string>29DEEB8875DECD16D2624862</string>
+				<string>A973718FA9C3D549DC8EDED3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1275,6 +1301,21 @@
 			<string>Pods-FMDB_JING_Example.release.xcconfig</string>
 			<key>path</key>
 			<string>Pods/Target Support Files/Pods-FMDB_JING_Example/Pods-FMDB_JING_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A973718FA9C3D549DC8EDED3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
