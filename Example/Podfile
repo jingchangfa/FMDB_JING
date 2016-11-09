@@ -3,9 +3,4 @@ use_frameworks!
 target 'FMDB_JING_Example' do
   pod 'FMDB_JING', :path => '../'
 
-  target 'FMDB_JING_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end
