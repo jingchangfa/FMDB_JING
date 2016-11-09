@@ -1,2 +1,2 @@
 pod 'FMDB'
-pod "FMDB_JING"
+pod 'FMDB_JING', '~> 0.1.0'
