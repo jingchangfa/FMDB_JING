@@ -1,6 +1,2 @@
-use_frameworks!
-
-target 'FMDB_JING_Example' do
-  pod 'FMDB_JING', :path => '../'
-
-end
+pod 'FMDB'
+pod "FMDB_JING"

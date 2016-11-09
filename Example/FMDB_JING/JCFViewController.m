@@ -7,7 +7,8 @@
 //
 
 #import "JCFViewController.h"
-#import "JCF_ModelManager.h"
+#import <JCF_ModelManager.h>
+//#import "JCF_ModelManager.h"
 #import "Student.h"
 #import "Teacher.h"
 
