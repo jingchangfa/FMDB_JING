@@ -322,12 +322,13 @@
     if ([modelClass respondsToSelector:@selector(transients)]) {//相应类方法
         return [modelClass mainKey];
     }
+    NSString *mainKey = [[[modelClass alloc] init] mainKey];
     //放在这里感觉很不合适～～～～
-    if (![modelClass instancesRespondToSelector:@selector(transients)]) {
+    if (mainKey.length == 0) {
         //抛出异常
         JCF_Exception(NSStringFromClass(modelClass),@"必须至少实现一个获取主键的方法")
     }
-    return [[[modelClass alloc] init] mainKey];
+    return mainKey;
 }
 - (void)mainKeySetSuccseeful:(NSDictionary *)proDictioary AndModelClass:(Class)modelClass{
     NSString *mainKey = [self mainKeyByClass:modelClass];
