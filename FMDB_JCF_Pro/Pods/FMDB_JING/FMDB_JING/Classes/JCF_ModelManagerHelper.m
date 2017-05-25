@@ -82,8 +82,9 @@
 - (NSString *)SQLTableHaveByModelClass:(Class)modelClass{
     NSString *tableName = [self tableNameByModelClass:modelClass];
 
-    NSString *sqlString = [NSString stringWithFormat:@"select count(*) as 'count' from sqlite_master where type ='table' and name = %@", tableName];
+//    NSString *sqlString = [NSString stringWithFormat:@"select count(*) as 'count' from sqlite_master where type ='table' and name = %@", tableName];
     
+    NSString *sqlString = [NSString stringWithFormat:@"select count(*) as 'count' from sqlite_master where type ='table' and name = ?"];
     return sqlString;
 }
 - (NSString *)createSQLTableByModelClass:(Class)modelClass{
