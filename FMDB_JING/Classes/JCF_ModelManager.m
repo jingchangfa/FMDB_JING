@@ -141,7 +141,8 @@
     }
     
     NSString *tableHaveSQLString = [self.helping SQLTableHaveByModelClass:modelClass];
-    FMResultSet *rs = [db executeQuery:tableHaveSQLString];
+//    FMResultSet *rs = [db executeQuery:tableHaveSQLString];
+    FMResultSet *rs = [db executeQuery:tableHaveSQLString,tableName];
     BOOL isCreate = NO;
     while ([rs next]) {
         NSInteger count = [rs intForColumn:@"count"];
